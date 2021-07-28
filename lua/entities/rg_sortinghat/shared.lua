@@ -1,36 +1,36 @@
 ENT.Type = "anim"
 ENT.Base = "base_gmodentity"
-ENT.PrintName = "Sorting Hat"
+ENT.PrintName = "Choipeaux Magique"
 ENT.Author = "Stan & Sweg"
-ENT.Category = "Hogwarts RolePlay"
+ENT.Category = "Advanced Community"
 ENT.Spawnable = true
 ENT.AdminSpawnable = true
 
 	rg_hatmodel = "models/sortinghat/sortinghat.mdl" 
 	rg_listOfHouses = {
 	{ 
-		name = "Hufflepuff", 
+		name = "Poufsouffle", 
 		color = Color(255,255,0),
-		ulx = "hufflepuff",
-		job = TEAM_HUFFLEPUFF
+		ulx = "Poufsouffle",
+		job = TEAM_POUFSOUFFLE
 	},
 	{ 
-		name = "Gryffindor",
+		name = "Gryffondor",
 		color = Color(255,0,0),
-		ulx = "gryffindor",
-		job = TEAM_GRYFFINDOR
+		ulx = "gryffondor",
+		job = TEAM_GRYFFONDOR
 	},
 	{ 
-		name = "Ravenclaw",
+		name = "Serdaigle",
 		color = Color(0,0,255),	
-		ulx = "ravenclaw",
-		job = TEAM_RAVENCLAW
+		ulx = "Serdaigle",
+		job = TEAM_SERDAIGLE
 	},
 	{ 
-		name = "Slytherin",
+		name = "Serpentard",
 		color = Color(0,255,0),	
-		ulx = "slytherin",
-		job = TEAM_SLYTHERIN 
+		ulx = "Serpentard",
+		job = TEAM_SERPENTARD
 	}
 }
 
